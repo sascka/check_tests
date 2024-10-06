@@ -2,7 +2,6 @@
 пару строчек кода и все, но тк повторюсь мы делаем приложение для телефона нам надо настравться под android поэтому вместо простых библиотек будут более сложные, в видосе само решение, но тк мы должны будем не только рас-
 познавать текст надо будет углубиться:
 cначала:
-https://pdf.wondershare.com.ru/ocr/extracting-text-from-image-python.html
 https://github.com/JaidedAI/EasyOCR
 https://github.com/gjwgit/easyocr/blob/master/ocr.py
 https://github.com/JaidedAI/EasyOCR
