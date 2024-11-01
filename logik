@@ -1,1 +1,29 @@
-#
+import easyocr
+import os
+
+class Algoritm:
+    def __init__(self, file_path_photo_teacher, file_path_photo_student): # get photo
+        self.photo_teacher = file_path_photo_teacher#t1.jpeg
+        self.photo_student = file_path_photo_student#st1_true.jpeg
+
+    def recognize_picture(self):
+        self.reader = easyocr.Reader(["en"])
+
+
+    def result(self):
+        result_t = self.reader.readtext(self.photo_teacher)
+        result_st = self.reader.readtext(self.photo_student)
+        return result_t, result_st
+
+
+
+
+def main():
+    file_path_t = input("Введите путь до фото работы учителя:")
+    file_path_st = input("Введите путь до фото работы ученика:")
+    app = Algoritm(file_path_t, file_path_st)
+    app.recognize_picture()
+    print(app.result())
+
+if __name__ == "__main__":
+    main()
