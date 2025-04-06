@@ -2,7 +2,7 @@
 
 1. Получение ссылки на доступ
 Вам будет предоставлена ссылка на веб-приложение, например:
-https://script.google.com/macros/s/AKfycbwflgjvjn9BI3Ik5tttDJZtx-LukGywMdsJ57oc-hs8VQNOiivEmkTr7ZGJmRDjZfVu/exec
+https://script.google.com/macros/s/AKfycbw1-3jpm_Lz-llmnSNzZ9b3fEqrDhJHPJgIbRZGU2bBt91r8uKIFxDav0K0-69wQpw9/exec
 Перейдите по этой ссылке в вашем браузере.
 
 2. Вход в систему
